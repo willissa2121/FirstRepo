@@ -1,6 +1,9 @@
 /* #header-title, .header-links{
   display:inline;
 } */
+body{
+  background-image: url(fishnets-and-hearts.png);
+}
 #header-title{
   margin-left:30px;
   /* margin-bottom:25px; */
@@ -16,7 +19,11 @@ span{
 }
 
 a:visited{
+<<<<<<< Updated upstream
   color:blueviolet;
+=======
+  color:blue;
+>>>>>>> Stashed changes
 }
 a:hover{
   color:green;
