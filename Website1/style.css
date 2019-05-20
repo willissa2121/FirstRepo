@@ -11,6 +11,7 @@ body{
   padding-left:100px;
   margin-top:35px;
   margin-bottom:15px;
+  font-size:45px;
   
 
 }
@@ -19,24 +20,59 @@ span{
 }
 
 a:visited{
-<<<<<<< Updated upstream
   color:blueviolet;
-=======
-  color:blue;
->>>>>>> Stashed changes
 }
 a:hover{
-  color:green;
+  color:blue;
+}
+.header-links .close-menu-btn{
+  position:absolute;
+  top:0;
+  right:25px;
+  font-size:20px;
+  margin-left:50px;
+}
+.open-menu-btn{
+  font-size:20px;
+  cursor:pointer;
+  background-color:teal;
+  color:white;
+  padding:10px 15px;
+  border:none;
+  margin-left:95px;
+
+}
+.open-menu-btn:hover{
+  opacity:0.65;
 }
 
-.header-links{
-  float: right;
-  margin-right:100px;
-  font-size: 24px;
-  margin-top:-35px; 
+
+
+#sidebar-links{
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:1;
+  background-color:teal;
+  overflow-x:hidden;
+  padding-top:50px;
+  transition:0.5s;
+}
+.header-links a{
+  padding: 10px;
+  padding-left:25px;
+  padding-bottom:35px;
+  font-size:30px;
+  color:white;
+  display:block;
+  transition:0.25s;
 }
 a{
   margin:5px;
+}
+#main{
+  transition: margin-left 0.5s;
+  padding:10px;
 }
 
 .container-fluid{
@@ -50,9 +86,9 @@ a{
 }
 .card-body{
   background:#F8F8FF;
-  padding-bottom:15px;
+  padding-bottom:5px;
   
-  margin:25px;
+  margin:5px;
 }
 .card-title{
   margin-left:35px;
@@ -117,7 +153,7 @@ label{
 .message-group{
   margin-top:8px;
 }
-button{
+.btn{
   float:left;
   margin-top:5px;
   margin-left:3px;
