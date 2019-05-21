@@ -173,7 +173,7 @@ textarea{
   float:left;
   cursor: pointer;
   font-size:25px;
-  width:33%;
+  width:33.3%;
   border:teal 1px solid;
   align-content: center
 }
@@ -190,4 +190,8 @@ textarea{
 #work-experience{background-color:#F8F8FF;}
 #work-experience{background-color:#F8F8FF;}
 #work-experience{background-color:#F8F8FF;}
+
+.tablink-group{
+  width:95%;
+}
 

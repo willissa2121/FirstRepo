@@ -50,10 +50,12 @@
             <!--Tabs containing experience within single card-->
 
             <div class="tablink-group">
-                <button class="tablink" onclick="openContent('work-experience')" id="default">Work Experience</button>
-                <button class="tablink" onclick="openContent('volunteer-experience')" >Volunteer Experience</button>
-                <button class="tablink" onclick="openContent('academic-history')" >Academic History</button>
-              </div>
+              <button class="tablink" onclick="openContent('work-experience', 'default')" id="default">Work Experience</button>
+              <button class="tablink" id="volunteer-experience-tab" onclick="openContent('volunteer-experience', 'volunteer-experience-tab')" >Volunteer Experience</button>
+              <button class="tablink" id="academic-history-tab" onclick="openContent('academic-history', 'academic-history-tab')" >Academic History</button>
+            </div>
+
+              <!--content within tabs-->
 
             <div id="work-experience" class="tabcontent">
               <h3>Work Experience</h3>
