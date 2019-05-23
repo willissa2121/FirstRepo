@@ -4,7 +4,7 @@
 body{
   background-image: url(fishnets-and-hearts.png);
 }
-#header-title{
+.header-title{
   margin-left:30px;
   /* margin-bottom:25px; */
   color:teal;
@@ -195,3 +195,6 @@ textarea{
   width:95%;
 }
 
+.body-background{
+  background-image:url(memphis-mini.png);
+}
